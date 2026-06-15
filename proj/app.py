@@ -24,8 +24,8 @@ def main():
         st.markdown("### 📊 データ設定")
         
         # ./data フォルダ内の csv.gz ファイルを検索
-        # data_dir = "./proj/data"
-        data_dir = "./data"
+        data_dir = "./proj/data"
+        # data_dir = "./data"
         file_pattern = os.path.join(data_dir, "*.csv.gz")
         available_files = glob.glob(file_pattern)
         
