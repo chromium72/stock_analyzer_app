@@ -139,9 +139,9 @@ def main():
                 progress_bar=progress_bar
             )
 
-        status_text.empty()
-        progress_bar.empty()
-        st.plotly_chart(fig, width="stretch")
+            status_text.empty()
+            progress_bar.empty()
+            st.plotly_chart(fig, width="stretch")
 
         # -----------------------------------------------------
         # 📊 シミュレーション結果サマリーの表示
